@@ -74,10 +74,19 @@
                 <!-- la etiqueta br sirve para hacer un salto de linea -->
         </aside>
 
-        <form>
-            <label for="nombre">Gusto el sitio web?</label>
-            <br>
-            <input id="nombre" name="nombre" placeholder="Comenta..."/>
+        <form action="/formulario" method="POST">
+            <label for="nombre">Nombre</label>
+                <input value="Nombre" type="text" id="nombre"/>
+                <br>
+            <label for="apellido">Apellido</label>
+                <input value="Apellido" type="text" id="apellido"/>
+                <br>
+            <label for="comentario">Comentario</label>
+                <textarea rows="10" cols="50" id="comentario" name="comentario">Texto de ejemplo</textarea>
+                <br>
+                <button type="button">Tipo Boton</button>
+                <button type="reset">Tipo Reset</button>
+                <button type="submit">Tipo Submit</button>
         </form>
         <!-- Al ponerle una label al formulario con el for y el id se genera que al hacer clic, lleva al campo para completar -->
         <footer>
