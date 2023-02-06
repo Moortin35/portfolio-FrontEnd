@@ -5,22 +5,24 @@
 
 /* Selector por id */
 #title {
+   /* Titulo */
    padding: 15px;
    font-family: triforce;
    font-size: 50px;
    letter-spacing: 2px;
    text-shadow: 3px 5px 5px rgb(19, 56, 78);
    color: rgb(72, 97, 143);
-   /* border: 5px lightseagreen inset; */
+   text-align: justify;
+   
+   /* border */
    border-style: inset;
    border-width: 7px;
    border-color: rgb(24, 148, 142);
    border-radius: 7px;
-
-   text-align: justify;
+   margin: auto;
    
    /* Background */
-   height: 500px;
+   height: 400px;
    background-position: center;
    background-image: url(wallpaper_zelda.jpg);
    background-size: contain;
