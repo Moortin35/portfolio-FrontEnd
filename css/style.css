@@ -1,26 +1,37 @@
 /* Selector por id */
 #title {
-   color: darkblue;
+   color: rgb(72, 97, 143);
    /* border: 5px lightseagreen inset; */
    border-style: inset;
    border-width: 7px;
-   border-color: lightseagreen;
+   border-color: rgb(24, 148, 142);
    border-radius: 7px;
+
+   /* Background */
+   height: 500px;
+   background-position: center;
+   background-image: url(wallpaper_zelda.jpg);
+   background-size: contain;
  }
 
  /* Selector por clase */
 .post {
-   color:slateblue;
+   color: rgb(6, 35, 54);
 }
 
 /* Selector por etiqueta */
 h2, h3{
-   color: darkred;
+   color: rgb(3, 37, 43);
 }
+
+html{
+   background-color: rgb(5, 117, 117);
+}
+
 
 /* Selector universal */
 *{
    /* color:#ff0000; */
    /* color: rgb(0,255,255); */
-   color:black;
+   opacity: 0.98;
 }
