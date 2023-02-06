@@ -26,17 +26,22 @@
    background-size: contain;
  }
 
+
  /* Selector por clase */
 .post {
    color: rgb(6, 35, 54);
+   border: 1px black solid;
+   border-radius: 5px;
+   margin-bottom: 15px;
 }
 
 .margen{
    background-color: rgb(28, 73, 141);
-   margin: 15px;
+   margin-top: 15px;
+   margin-bottom: 15px;
    padding: 15px;
-   width: 80%;
-   height: 30px;
+   width: 95%;
+   height: 70px;
    border: solid 1px black;
    overflow:scroll;
 }
@@ -44,6 +49,7 @@
 /* Selector por etiqueta */
 h2, h3{
    color: rgb(3, 37, 43);
+   text-decoration: underline;
 }
 
 html{
