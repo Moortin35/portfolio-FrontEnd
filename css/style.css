@@ -1,5 +1,15 @@
+@font-face {
+   font-family: "triforce";
+   src: url("triforce.ttf");
+}
+
 /* Selector por id */
 #title {
+   padding: 15px;
+   font-family: triforce;
+   font-size: 50px;
+   letter-spacing: 2px;
+   text-shadow: 3px 5px 5px rgb(19, 56, 78);
    color: rgb(72, 97, 143);
    /* border: 5px lightseagreen inset; */
    border-style: inset;
@@ -7,6 +17,8 @@
    border-color: rgb(24, 148, 142);
    border-radius: 7px;
 
+   text-align: justify;
+   
    /* Background */
    height: 500px;
    background-position: center;
@@ -43,4 +55,5 @@ html{
    /* color:#ff0000; */
    /* color: rgb(0,255,255); */
    opacity: 0.98;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
