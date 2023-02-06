@@ -1,7 +1,26 @@
-body {
-    background-color: linen;
+/* Selector por id */
+#title {
+   color: darkblue;
+   /* border: 5px lightseagreen inset; */
+   border-style: inset;
+   border-width: 7px;
+   border-color: lightseagreen;
+   border-radius: 7px;
  }
- h1 {
-    color: maroon;
-    margin-left: 40px;
- }
+
+ /* Selector por clase */
+.post {
+   color:slateblue;
+}
+
+/* Selector por etiqueta */
+h2, h3{
+   color: darkred;
+}
+
+/* Selector universal */
+*{
+   /* color:#ff0000; */
+   /* color: rgb(0,255,255); */
+   color:black;
+}
