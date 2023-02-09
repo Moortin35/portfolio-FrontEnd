@@ -17,7 +17,7 @@ header h1{
    letter-spacing: 2px;
    text-shadow: 3px 5px 5px rgb(94, 0, 0);
    color: rgb(179, 0, 0);
-   text-align: center;
+   text-align: center;   
 }
 
 body{
@@ -70,9 +70,9 @@ footer p{
 
 footer a{
    transition: color 0.3s ease;
-   color: #fff;
    text-decoration: none;
-   float:inline-end;
+   color: #fff;
+   float:inline-start;
 }
 
 footer a:hover{
