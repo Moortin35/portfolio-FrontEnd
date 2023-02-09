@@ -3,65 +3,87 @@
    src: url("triforce.ttf");
 }
 
-/* Selector por id */
-#title {
-   /* Titulo */
-   padding: 15px;
-   font-family: triforce;
-   font-size: 50px;
-   letter-spacing: 2px;
-   text-shadow: 3px 5px 5px rgb(19, 56, 78);
-   color: rgb(72, 97, 143);
-   text-align: justify;
-   
-   /* border */
-   border-style: inset;
-   border-width: 7px;
-   border-color: rgb(24, 148, 142);
-   border-radius: 7px;
-   margin: auto;
-   
-   /* Background */
-   height: 400px;
-   background-position: center;
-   background-image: url(wallpaper_zelda.jpg);
-   background-size: contain;
- }
-
-
- /* Selector por clase */
-.post {
-   color: rgb(6, 35, 54);
-   border: 1px black solid;
-   border-radius: 5px;
-   margin-bottom: 15px;
-}
-
-.margen{
-   background-color: rgb(28, 73, 141);
-   margin-top: 15px;
-   margin-bottom: 15px;
-   padding: 15px;
-   width: 95%;
-   height: 70px;
-   border: solid 1px black;
-   overflow:scroll;
-}
-
 /* Selector por etiqueta */
+header{
+   padding:1px;
+   background-color: #333;
+}
+
+header h1{
+   /* Titulo */
+   margin: 20px;
+   font-family: triforce;
+   font-size: 100px;
+   letter-spacing: 2px;
+   text-shadow: 3px 5px 5px rgb(94, 0, 0);
+   color: rgb(179, 0, 0);
+   text-align: center;
+}
+
+body{
+   margin: 0;
+   background-color:#efefef;
+   font-family: 'Roboto', sans-serif;
+}
+
 h2, h3{
    color: rgb(3, 37, 43);
-   text-decoration: underline;
 }
 
-html{
-   background-color: rgb(5, 117, 117);
+
+section article{
+   transition: box-shadow 0.3s ease;
+   background-color: #fff;
+   margin: 2rem 0rem;
+   border-radius: 0.5rem;
+   color: black;
+   padding: 0.25rem 0;
+   cursor:pointer;
+}
+
+section article h2, section article p{
+   margin: 1rem;
+}
+
+section article:hover{
+   box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+/* Selector por clase */
+.container {
+   width: 400px;
+   margin: 0 auto;
+}
+
+footer{
+   background-color: #222;
+   padding: 3rem;
+}
+
+footer h3{
+   color:#fff;
+}
+
+footer p{
+   margin:0;
+}
+
+footer a{
+   transition: color 0.3s ease;
+   color: #fff;
+   text-decoration: none;
+   float:inline-end;
+}
+
+footer a:hover{
+   color:cornflowerblue;
+}
+
+.volver{
+   float: right;
 }
 
 /* Selector universal */
 *{
-   /* color:#ff0000; */
-   /* color: rgb(0,255,255); */
    opacity: 0.98;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

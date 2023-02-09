@@ -5,38 +5,46 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mortin's Blog</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css"/>
     </head>
+    <header id="title">  
+        <h1>Zelda's blog</h1>
+    </header>
     <body>
-        <header>  
-            <h1 id="title">Zelda's Blog</h1>
-        </header>
-        <h2 id="descripción">Una breve descripción:</h2>
-        <div class="margen">
-            Muchos siglos antes de los acontecimientos del juego, en la tierra de Hyrule, muchos partidos procuraron entrar en el mítico Reino Sagrado, donde descansa la omnipotente y omnisciente Trifuerza, una reliquia que tiene el poder de otorgar el mayor deseo de la persona que la tocara y, fue rumoreado que se encontraba allí. Finalmente, el ladrón Ganondorf logró satisfactoriamente tocar la Trifuerza, convirtiendo el Reino Sagrado en una tierra oscura y baldía llamada Mundo Oscuro, además de perder su humanidad transformándose en una bestia conocida como Ganon. Ganon pronto armo un ejército con el que se dispuso a conquistar Hyrule. Con el fin de sellar a Ganon y evitar que causara más destrucción y dolor, el Rey de Hyrule mando a los Siete Sabios sellarlo en el Mundo Oscuro. Los Soldados de Hyrule defendían valientemente a los Sabios de las fuerzas de Ganon, consiguiendo colocar el sello satisfactoriamente. Sin embargo, el número de soldados de Hyrule fue casi completamente borrado como consecuencia de la batalla.
-        </div>
-        <section>
+        <section class="container">
             <article class="post">
-                <h2>Triforce</h2>
+                <h2>Trifuerza</h2>
                 <p>Emblema de la Trifuerza</p>
-                <img src="img/triforce.png" width="200">
+                <img src="img/triforce.png" width="400">
                 <p>Compuesta de tres triángulos, es un símbolo del equilibrio entre los tres grandes poderes con los que las Diosas, Din, Nayru y Farore, crearon el mundo: poder, sabiduría y valor.</p>
             </article>
             <article class="post">
                 <h2>Link</h2>
                 <p>The Hero of Time</p>
-                <img src="img/link.png" width="500">
+                <img src="img/link.png" width="400">
                 <p>Link es el nombre del protagonista de The Legend of Zelda. Es el Héroe Elegido por las Diosas, portador de la Espada Maestra y representante de la Trifuerza del Valor.</p>
             </article>
+            <article class="post">
+                <h2>Zelda</h2>
+                <p>The Princess of Hyrule</p>
+                <img src="img/zelda.png" width="400">
+                <p>La Princesa Zelda es un personaje principal de la saga de
+                     videojuegos de The Legend of Zelda. Es la princesa
+                      descendiente de la Familia Real de Hyrule. 
+                      Zelda porta la Trifuerza de la Sabiduría.</p>
+            </article>
         </section>
+        <!-- Crear una seccion con una tabla de personajes y que cuando los clickee los lleve a links de la wiki -->
         <footer>
-            <h3>Contacto</h3>
-            <a href="mailto:martin.delgado@mi.unc.edu.ar">Correo electrónico</a>
-            <br>
-            <a href="https://www.linkedin.com/in/delgado-martin/">Linkedin</a>
-            <br>
-            <br>
-            <a href="#title">Volver al inicio</a>
+            <section>
+                <h3>Contacto</h3>
+                <a href="mailto:martin.delgado@mi.unc.edu.ar">Correo electrónico</a>
+                <a href="https://www.linkedin.com/in/delgado-martin/">Linkedin</a>
+            </section>
+            <a class="volver", href="#title">Volver al inicio</a>
         </footer>
     </body>
 </html>
